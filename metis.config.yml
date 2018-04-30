@@ -1,0 +1,11 @@
+project_token: c063c83e4dff72890c99f0c2
+name: temp_testing
+jobs:
+  - job_id: 8231dc21-cd9c-40e9-9f51-31a6b9042706
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
