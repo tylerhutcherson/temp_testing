@@ -3,7 +3,7 @@
 # Obviously, weather modeling is not actually this easy, but the following code shows how to:
 # * access data via the Metis Machine data engine
 # * transform those data using a deep learning model
-# * persist the resulting transformation so that it can be accessed via an outward-facing API
+# * persist the resulting transformation so that it can be accessed via an outward-facing API!
 
 import os
 import torch
